@@ -5,4 +5,4 @@
 ### Technical Background
 I graduated from MSU with a Bachelor of Science in physics. At MSU, I researched with the ATLAS collaboration from Jan 2021 to Oct 2023 analyzing "trigger" algorithms for ATLAS' research at the LHC. This consisted of data analysis using python and some C++. If you're curious, feel free to ask me about it before or after class sometime... I could go on forever about this (I'm the student who arrived late and sweaty the first day). Beyond this, I have more data analytics and modeling experience from classwork at MSU. Lastly, I worked with React, Flask, and SQLite to design a personal assistant that does not work very well. I'm excited that my team agreed to rework this pet project for this semester's term project!
 
-A meme that has become legendary with my childhood friends: [Yee Dinosaur](https://www.youtube.com/watch?v=q6EoRBvdVPQ&t=3s)
+A meme that has become legendary with my friends from home: [Meme](https://www.reddit.com/r/surrealmemes/comments/pnl516/he_will_watch/#lightbox)
