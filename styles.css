@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.mainBody {
+    overflow: visible;
+}
+
+body {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    background-color: #d7e5ee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainDiv {
+    overflow: visible;
+}
+
+div {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #4c4c6f;
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 2px solid #4c4c6f;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+h2 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #4c4c6f;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #4c4c6f;
+    text-align: left;
+    font-size: 16px;
+}
+
+p {
+    text-decoration: none;
+    color: #4c4c6f;
+    font-size: 14px;
+}
+
+iframe {
+    overflow: hidden;
+    margin: 0px;
+    border: none;
+    width: 100%;
+}
+
+.bkgImg {
+    position: absolute;
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    z-index: inherit;
+}
+
+.acronym {
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.acronym::after {
+    content: "\200B";/* Zero-width space character */
+    text-decoration: none;/* Prevent underline on the pseudo-element */
+}
+
+.expand {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    border: 1px solid #4c4c6f;
+    white-space: nowrap;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.dropdownLink {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: #4c4c6f;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 8px;
+    line-height: 1.5;
+}
+
+.dropdownLink::after {
+    content: "➤";
+    display: inline-block;
+    margin-left: 4px;
+    transition: transform 0.2s ease;
+}
+
+.dropdownLink.active::after {
+    transform: rotate(90deg);
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    top: -100%;
+    border-left: 2px solid #4c4c6f;
+    text-decoration: none;
+    color: #4c4c6f;
+    font-size: 14px;
+    padding-left: 8px;
+    margin-left: 16px;
+    line-height: 1.0;
+}
+
+.dropdown p {
+    padding-bottom: 8px;
+}
+
+.dropdown p:first-child {
+    padding-top: 4px;
+}
+
+.dropdown p:last-child {
+    padding-bottom: 4px;
+}
+
+.dropdown div {
+    padding-bottom: 8px;
+}
+
+.dropdown div:first-child {
+    padding-top: 4px;
+}
+
+.dropdown div:last-child {
+    padding-bottom: 4px;
+}

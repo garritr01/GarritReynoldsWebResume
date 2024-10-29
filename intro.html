@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+    <script src="displayCorrections.js"></script>
+</head>
+
+<body id="intro" style="margin-left: 8px;">
+    <div>
+        <h2>Background</h2>
+        <p>
+            I am a <span id="ageDisplay"></span> year old
+            software engineer. I graduated from MSU with
+            a Bachelor of Science in Physics and a Minor in
+            <span class="acronym">
+                CMSE
+                <span class="expand">
+                    Computational Math, Science, and Engineering
+                </span>
+            </span> and am currently enrolled in GVSU's
+            <span class="acronym">ACS
+                <span class="expand">
+                    Applied Computer Science
+                </span>
+            </span> Master's program.
+        </p>
+    </div>
+    <script>
+        const gortBirthday = new Date("2001-12-27");
+        const today = new Date();
+        let age = today.getFullYear() - gortBirthday.getFullYear();
+        if (gortBirthday.getMonth() > today.getMonth() ||
+            (gortBirthday.getMonth() === today.getMonth() && gortBirthday.getDate() > today.getDate())
+        ) {
+            age--;
+        }
+        document.getElementById("ageDisplay").textContent = age;
+
+        // Adjust intro iframe width and post height back to index.html
+        adjustFrameWidth('intro', log = 0);
+
+        expansionCorrection(log = 0);
+    </script>
+</body>
+</html>
+

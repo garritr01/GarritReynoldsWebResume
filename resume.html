@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+    <script src="displayCorrections.js"></script>
+    <script>
+        window.onload = () => adjustDropdownLinkWidths(log = 0);
+        window.onresize = () => adjustDropdownLinkWidths(log = 0);
+    </script>
+</head>
+
+<body id="resume" style="margin-left: 8px;">
+    <h2>Education</h2>
+    <span class="dropdownLink" tag="PHS">Petoskey High School [Sept 2015 - May 2019]</span>
+    <span class="dropdown" tag="PHS" bkg="phsLogo.png">
+        <span class="dropdownLink" tag="coursesPHS">Courses</span>
+        <span class="dropdown" tag="coursesPHS">
+            <p>AP Government</p>
+            <p>AP Microeconomics</p>
+            <p>AP Macroeconomics</p>
+            <p>AP Language & Composition</p>
+            <p>AP Literature</p>
+            <p>AP Biology</p>
+            <p>AP Calculus AB</p>
+        </span>
+        <span class="dropdownLink" tag="xcricPHS">Extracurriculars</span>
+        <span class="dropdown" tag="xcricPHS">
+            <div>
+                <span style="font-weight: bold;">National Honors Society</span>
+                <span>- Member [Sept 2016 - May 2019]</span>
+                <span class="dropdownLink" tag="NHS" style="display: inline-block; padding-left: 0px;">More</span>
+                <span class="dropdown" tag="NHS">
+                    <p>
+                        NHS was a mixed experience for me. Many of the members would fake volunteer hours,
+                        and get caught, so every meeting was a guilt trip even for those of us that were 
+                        truly volunteering. Despite this, I enjoyed volunteering with my friends in many
+                        different scenarios. I most frequently volunteered sorting clothes and stocking
+                        shelves at the local Salvation Army resale store. It was fun sifting through the 
+                        sometimes ridiculous things people had donated. More importantly though, it was
+                        fulfilling to watch excited children leave with new clothes and books.
+                    </p>
+                </span>
+            </div>
+            <div>
+                <span style="font-weight: bold;">Model UN</span>
+                <span>- Member [Sept 2016 - May 2019]</span>
+                <span class="dropdownLink" tag="MUN" style="display: inline-block; padding-left: 0px;">More</span>
+                <span class="dropdown" tag="MUN">
+                    <p>
+                        MUN was great. I was never fully invested and rarely studied, but I accidentally learned 
+                        a lot. My worldview greatly expanded, something that needs to happen for any white kid 
+                        in a small white town. 
+                    </p>
+                </span>
+            </div>
+            <div>
+                <span style="font-weight: bold;">Freshman Basketball</span>
+                <span>- [Oct 2015 - Feb 2016]</span>
+            </div>
+            <span class="dropdownLink" tag="tennisPHS">Tennis</span>
+            <span class="dropdown" tag="tennisPHS">
+                <div>
+                    <span style="font-weight: bold;">JV</span>
+                    <span>- 1 Singles [Aug 2015 - Nov 2015]</span>
+                </div>
+                <div>
+                    <span style="font-weight: bold;">Varsity</span>
+                    <span>- 3 Singles [Aug 2016 - Nov 2016]</span>
+                </div>
+                <div>
+                    <span style="font-weight: bold;">Varsity</span>
+                    <span>- 2 Singles, Regional Champion [Aug 2017 - Nov 2017]</span>
+                </div>
+                <div>
+                    <span style="font-weight: bold;">Varsity</span>
+                    <span>- Captain, Division 3 All-State, 1 Singles, Regional Champion [Aug 2018 - Nov 2018]</span>
+                </div>
+            </span>
+        </span>
+    </span>
+    <span class="dropdownLink" tag="NCMC">North Central Michigan College [Sept 2017 - May 2019]</span>
+    <span class="dropdown" tag="NCMC" bkg="ncmcLogo.png">
+        <span class="dropdownLink active" tag="coursesNCMC">Courses</span>
+        <span class="dropdown" tag="coursesNCMC" style="display: block;">
+            <p>Intro to Psychology</p>
+            <p>Intro to Public Speaking</p>
+            <p>Intro to Programming</p>
+        </span>
+    </span>
+    <span class="dropdownLink" tag="MSU">Michigan State University [Aug 2019 - Dec 2022]</span>
+    <span class="dropdown" tag="MSU" bkg="msuLogo.png">
+        <div>
+            <span style="font-weight: bold;">Bachelor of Science</span>
+            <span>- Physics</span>
+        </div>
+        <div>
+            <span style="font-weight: bold;">Minor</span>
+            <span>- Computational Math, Science, and Engineering</span>
+        </div>
+        <div>
+            <span style="font-weight: bold;">Cumulative GPA</span>
+            <span>- 3.88</span>
+        </div>
+        <p style="font-weight: bold;">Graduated with Honors</p>
+        <span class="dropdownLink" tag="coursesMSU">Courses</span>
+        <span class="dropdown" tag="coursesMSU">
+            <span class="dropdownLink" tag="mathMSU">Math</span>
+            <span class="dropdown" tag="mathMSU">
+                <p>Calculus II-IV</p>
+                <p>Matrix Algebra I</p>
+                <p>Numerical Analysis I</p>
+            </span>
+            <span class="dropdownLink" tag="physicsMSU">Physics</span>
+            <span class="dropdown" tag="physicsMSU">
+                <p>Honors Research Seminar</p>
+                <p>Honors Physics I - Mechanics</p>
+                <p>Physics II - Electromagnetism</p>
+                <p>Thermodynamics & Modern Physics</p>
+                <p>Classical Mechanics</p>
+                <p>Computational Physics</p>
+                <p>Electronics</p>
+                <p>Quantum Physics I & II</p>
+                <p>Thermal & Statistical Physics</p>
+                <p>Survey of Elementary Particle Physics</p>
+                <p>Electricity & Magnetism</p>
+                <p>Intro to Condensed Matter Physics</p>
+                <p>Physics Laboratory I & II</p>
+                <p>Advanced Laboratory</p>
+            </span>
+            <span class="dropdownLink" tag="cmseMSU">CMSE</span>
+            <span class="dropdown" tag="cmseMSU">
+                <p>Honors Research Seminar</p>
+                <p>Computational Modeling & Data Analysis I & II</p>
+                <p>Matrix Algebra I</p>
+                <p>Numerical Analysis I</p>
+                <p>Computational Physics</p>
+            </span>
+            <span class="dropdownLink" tag="miscMSU">Miscellaneous</span>
+            <span class="dropdown" tag="miscMSU">
+                <p>Geography of Europe</p>
+                <p>Indigenous-European Encounters</p>
+                <p>Spain & The Muslim World</p>
+            </span>
+        </span>
+        <span class="dropdownLink" tag="xcricMSU">Extracurriculars</span>
+        <span class="dropdown" tag="xcricMSU">
+            <div>
+                <span style="font-weight: bold;">Club Tennis</span>
+                <span>- Member [Aug 2019 - May 2022]</span>
+            </div>
+        </span>
+    </span>
+    <script>
+        dropdown("resume", log = 0);
+        adjustFrameWidth('resume', log = 0);
+    </script>
+</body>
+
+</html>

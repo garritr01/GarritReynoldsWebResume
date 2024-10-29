@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="displayCorrections.js"></script>
+    <script>
+        const frames = [
+            'intro',
+            'resume'
+        ];
+        window.onload = () => postMainWidth(frames, log = 0);
+        window.onresize = () => postMainWidth(frames, log = 0);
+
+        // Listen for height adjustments from iframes
+        adjustIframeHeight(frames, log = 0); 
+    </script>
+</head>
+
+<body class="mainBody">
+    <div class="mainDiv">
+        <h1>Welcome to GarritHub</h1>
+        <iframe id="introFrame" src="intro.html"></iframe>
+        <h1>Experiences</h1>
+        <iframe id="resumeFrame" src="resume.html"></iframe>
+    </div>
+</body>
+</html>
+
